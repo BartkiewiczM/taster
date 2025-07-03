@@ -20,12 +20,13 @@ ActiveRecord::Schema[7.1].define(version: 2025_07_03_205618) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["meal_id"], name: "index_favorites_on_meal_id"
+    t.index ["user_id", "meal_id"], name: "index_favorites_on_user_id_and_meal_id", unique: true
     t.index ["user_id"], name: "index_favorites_on_user_id"
   end
 
   create_table "meals", force: :cascade do |t|
-    t.string "name"
-    t.integer "category"
+    t.string "name", null: false
+    t.integer "category", default: 0, null: false
     t.text "description"
     t.text "ingredients"
     t.text "recipe"
@@ -33,16 +34,18 @@ ActiveRecord::Schema[7.1].define(version: 2025_07_03_205618) do
     t.string "external_api_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["external_api_id"], name: "index_meals_on_external_api_id", unique: true
   end
 
   create_table "ratings", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.bigint "meal_id", null: false
-    t.integer "rating"
+    t.integer "rating", null: false
     t.text "comment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["meal_id"], name: "index_ratings_on_meal_id"
+    t.index ["user_id", "meal_id"], name: "index_ratings_on_user_id_and_meal_id", unique: true
     t.index ["user_id"], name: "index_ratings_on_user_id"
   end
 
