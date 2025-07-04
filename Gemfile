@@ -51,3 +51,6 @@ end
 
 gem "devise", "~> 4.9"
 gem "devise-jwt", "~> 0.12.1"
+gem "faraday", "~> 2.13"
+gem "vcr", "~> 6.3", :group => :test
+gem "webmock", "~> 3.25", :group => :test
