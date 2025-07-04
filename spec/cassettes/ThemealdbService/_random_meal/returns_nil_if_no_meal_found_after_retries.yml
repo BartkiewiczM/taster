@@ -1,0 +1,333 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 04 Jul 2025 17:57:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=eoGpaG05yfwKLPSnNE%2FP4xelvTvIJ62tRaQnO9%2Fm99X8aEWwJ8fE3IAXupNtMOmC85HNWvQPp%2BwR5WYU9WcKKdqDIFHlyefv8uBKSYmK1258HzNCsCWWNjTjAjFZqmIGLcLmuA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95a08153ec43b620-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5475&min_rtt=5361&rtt_var=1722&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2831&recv_bytes=786&delivery_rate=691358&cwnd=252&unsent_bytes=0&cid=894a7c5996927902&ts=132&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52969","strMeal":"Chakchouka ","strMealAlternate":null,"strCategory":"Miscellaneous","strArea":"Tunisian","strInstructions":"In
+        a large cast iron skillet or saut\u00e9 pan with a lid, heat oil over medium
+        high heat. Add the onion and saut\u00e9 for 2-3 minutes, until softened. Add
+        the peppers and garlic, and saut\u00e9 for an additional 3-5 minutes. Add
+        the tomatoes, cumin, paprika, salt, and chili powder. Mix well and bring the
+        mixture to a simmer. Reduce the heat to medium low and continue to simmer,
+        uncovered, 10-15 minutes until the mixture has thickened to your desired consistency.
+        (Taste the sauce at this point and adjust for salt and spice, as desired.)
+        Using the back of a spoon, make four craters in the mixture, large enough
+        to hold an egg. Crack one egg into each of the craters. Cover the skillet
+        and simmer for 5-7 minutes, until the eggs have set. Serve immediately with
+        crusty bread or pita.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/gpz67p1560458984.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=EHKNu93MSx4","strIngredient1":"Tomatoes","strIngredient2":"Olive
+        Oil","strIngredient3":"Onion","strIngredient4":"Red Pepper","strIngredient5":"Green
+        Pepper","strIngredient6":"Garlic","strIngredient7":"Cumin","strIngredient8":"Paprika","strIngredient9":"Salt","strIngredient10":"Chili
+        Powder","strIngredient11":"Eggs","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"4","strMeasure2":"2
+        tbs","strMeasure3":"1 Diced","strMeasure4":"1 sliced","strMeasure5":"1 sliced","strMeasure6":"3
+        Cloves Crushed","strMeasure7":"1 tsp ","strMeasure8":"1 tsp ","strMeasure9":"3\/4
+        teaspoon","strMeasure10":"1\/2 teaspoon","strMeasure11":"4","strMeasure12":"
+        ","strMeasure13":" ","strMeasure14":" ","strMeasure15":" ","strMeasure16":"
+        ","strMeasure17":" ","strMeasure18":" ","strMeasure19":" ","strMeasure20":"
+        ","strSource":"https:\/\/www.curiouscuisiniere.com\/chakchouka\/","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 04 Jul 2025 17:57:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=PuRqOv%2BdRL5xEZpVjkRt8v%2B5%2BrLLYUR3Yz9%2FKjgZUcHBHWeUaWh3usLzwJc4akys0SPZia5BCSJWN4xF%2Fm%2F6qgozO%2F2gsm8jX7AzO%2B8v34INd9rD4hzrs3brdTVHGEQzs17%2FLQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95a08154fa3bc3bb-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5500&min_rtt=5331&rtt_var=1711&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2830&recv_bytes=786&delivery_rate=691244&cwnd=252&unsent_bytes=0&cid=7568f565f1b0a7bf&ts=123&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52769","strMeal":"Kapsalon","strMealAlternate":null,"strCategory":"Lamb","strArea":"Dutch","strInstructions":"Cut
+        the meat into strips. Heat oil in a pan and fry the strips for 6 minutes until
+        it''s ready.\r\nBake the fries until golden brown in a deep fryrer. When ready
+        transfer to a backing dish. Make sure the fries are spread over the whole
+        dish.\r\nCover the fries with a new layer of meat and spread evenly.\r\nAdd
+        a layer of cheese over the meat. You can also use grated cheese. When done
+        put in the oven for a few minutes until the cheese is melted.\r\nChop the
+        lettuce, tomato and cucumber in small pieces and mix together. for a basic
+        salad. As extra you can add olives jalapenos and a red union.\r\nDived the
+        salad over the dish and Serve with garlicsauce and hot sauce","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sxysrt1468240488.jpg","strTags":"Snack","strYoutube":"https:\/\/www.youtube.com\/watch?v=UIcuiU1kV8I","strIngredient1":"Fries","strIngredient2":"Doner
+        Meat","strIngredient3":"Garlic sauce","strIngredient4":"Hotsauce","strIngredient5":"Lettuce","strIngredient6":"Tomato","strIngredient7":"Cucumber","strIngredient8":"Gouda
+        cheese","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"250
+        Grams","strMeasure2":"500 Grams","strMeasure3":"Topping","strMeasure4":"Topping","strMeasure5":"1
+        Bulb","strMeasure6":"1","strMeasure7":"3rd","strMeasure8":"100 Grams","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 04 Jul 2025 17:57:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=xE6x1pXZ2vnCyk7piTvw1%2FgD4Lib8yTfGe55JnvhQ3wT8I3H541JHf2LDZ2TKA7O4VwVWSf%2FHTwZ7ZwMXC2FJy1PdrOX%2BeWJXWTrx8%2FvrNlfNCY453%2F%2B1cfhMk8oMXQ%2BlvNkkA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95a08155ea76ef8d-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5818&min_rtt=5712&rtt_var=1809&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2830&recv_bytes=786&delivery_rate=655124&cwnd=252&unsent_bytes=0&cid=07eaf58509643805&ts=76&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52884","strMeal":"Lancashire hotpot","strMealAlternate":null,"strCategory":"Lamb","strArea":"British","strInstructions":"Heat
+        oven to 160C\/fan 140C\/gas 3. Heat some dripping or butter in a large shallow
+        casserole dish, brown the lamb in batches, lift to a plate, then repeat with
+        the kidneys.\r\nFry the onions and carrots in the pan with a little more dripping
+        until golden. Sprinkle over the flour, allow to cook for a couple of mins,
+        shake over the Worcestershire sauce, pour in the stock, then bring to the
+        boil. Stir in the meat and bay leaves, then turn off the heat. Arrange the
+        sliced potatoes on top of the meat, then drizzle with a little more dripping.
+        Cover, then place in the oven for about 1\u00bd hrs until the potatoes are
+        cooked.\r\nRemove the lid, brush the potatoes with a little more dripping,
+        then turn the oven up to brown the potatoes, or finish under the grill for
+        5-8 mins until brown.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uttrxw1511637813.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=w6TS5J8YRA4","strIngredient1":"Butter","strIngredient2":"Lamb","strIngredient3":"Lamb
+        Kidney","strIngredient4":"Onions","strIngredient5":"Carrots","strIngredient6":"Plain
+        Flour","strIngredient7":"Worcestershire Sauce","strIngredient8":"Chicken Stock","strIngredient9":"Bay
+        Leaves","strIngredient10":"Potatoes","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"100g
+        ","strMeasure2":"900g","strMeasure3":"3","strMeasure4":"2 medium","strMeasure5":"4
+        sliced","strMeasure6":"25g","strMeasure7":"2 tsp","strMeasure8":"500ml","strMeasure9":"2","strMeasure10":"900g","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/9099\/lancashire-hotpot","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 04 Jul 2025 17:57:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=c2lHMFju2ijRYwjrLE1dCNVAWuUwNS0yr9tLkAu2kbGyIeq5KQXrfk%2FzCc2nfgfhZrxpw6f%2Fc3f3jX8gLCiUJsPWLW3Ma08xWNNeAagFuqG7dnJlLD3iox49alJCRpcnJlofyw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95a081567965ee4b-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5521&min_rtt=5401&rtt_var=1744&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2832&recv_bytes=786&delivery_rate=683148&cwnd=252&unsent_bytes=0&cid=bdf803f485bb9bd3&ts=93&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"53086","strMeal":"Migas","strMealAlternate":null,"strCategory":"Miscellaneous","strArea":"Spanish","strInstructions":"Crumble
+        the bread into small pieces. Sprinkle with cold water, cover with a damp cloth
+        and leave for 30 minutes.\r\nHeat 2 tsp of olive oil in a deep pan. Add the
+        garlic cloves separated, skins on; just make a small cut with a knife to open
+        them and keep frying for 5 minutes. Set the garlic aside.\r\nIn the same oil,
+        where we fried everything, simmer the bread, stirring constantly for 15 minutes
+        and add a grinding of black pepper.\r\nAdd the garlic, continue stirring for
+        about 20 minutes. It will be ready when the bread is soft and golden.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xd9aj21740432378.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=GSvFVBpqMKI","strIngredient1":"Bread","strIngredient2":"Olive
+        Oil","strIngredient3":"Garlic","strIngredient4":"Pork","strIngredient5":"","strIngredient6":"","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
+        large","strMeasure2":"1 1\/2 L ","strMeasure3":"Half","strMeasure4":"1 Handfull","strMeasure5":"
+        ","strMeasure6":" ","strMeasure7":" ","strMeasure8":" ","strMeasure9":" ","strMeasure10":"
+        ","strMeasure11":" ","strMeasure12":" ","strMeasure13":" ","strMeasure14":"
+        ","strMeasure15":" ","strMeasure16":" ","strMeasure17":" ","strMeasure18":"
+        ","strMeasure19":" ","strMeasure20":" ","strSource":"https:\/\/www.ibericafood.com\/Recipes\/post\/migas-with-pork","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 04 Jul 2025 17:57:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=a2espIjJEg1fjuZN76T%2FfloGJDpXLDx44lggPlNejzaS1s9Wcf4Di1IRgUGz7MXXOqmc4K8ShFY474SyGaUhTk9IhmmPoEOGeA5hOrJiZcnFf2shNQJsNMnasQ%2FpdVRaDj73hA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95a081573cc534d0-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5949&min_rtt=5283&rtt_var=1917&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2831&recv_bytes=786&delivery_rate=731579&cwnd=252&unsent_bytes=0&cid=8ae5ddff18cab33e&ts=77&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52845","strMeal":"Turkey Meatloaf","strMealAlternate":null,"strCategory":"Miscellaneous","strArea":"British","strInstructions":"Heat
+        oven to 180C\/160C fan\/gas 4. Heat the oil in a large frying pan and cook
+        the onion for 8-10 mins until softened. Add the garlic, Worcestershire sauce
+        and 2 tsp tomato pur\u00e9e, and stir until combined. Set aside to cool.\r\n\r\nPut
+        the turkey mince, egg, breadcrumbs and cooled onion mix in a large bowl and
+        season well. Mix everything to combine, then shape into a rectangular loaf
+        and place in a large roasting tin. Spread 2 tbsp barbecue sauce over the meatloaf
+        and bake for 30 mins.\r\n\r\nMeanwhile, drain 1 can of beans only, then pour
+        both cans into a large bowl. Add the remaining barbecue sauce and tomato pur\u00e9e.
+        Season and set aside.\r\n\r\nWhen the meatloaf has had its initial cooking
+        time, scatter the beans around the outside and bake for 15 mins more until
+        the meatloaf is cooked through and the beans are piping hot. Scatter over
+        the parsley and serve the meatloaf in slices.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ypuxtw1511297463.jpg","strTags":"Baking","strYoutube":"https:\/\/www.youtube.com\/watch?v=mTvlmY4vCug","strIngredient1":"Olive
+        Oil","strIngredient2":"Onion","strIngredient3":"Garlic","strIngredient4":"Worcestershire
+        Sauce","strIngredient5":"Tomato Puree","strIngredient6":"Turkey Mince","strIngredient7":"Eggs","strIngredient8":"Breadcrumbs","strIngredient9":"Barbeque
+        Sauce","strIngredient10":"Cannellini Beans","strIngredient11":"Parsley","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
+        tblsp ","strMeasure2":"1 large","strMeasure3":"1 clove peeled crushed","strMeasure4":"2
+        tblsp ","strMeasure5":"3 tsp","strMeasure6":"500g","strMeasure7":"1 large","strMeasure8":"85g","strMeasure9":"2
+        tblsp ","strMeasure10":"800g","strMeasure11":"2 tblsp ","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/turkey-meatloaf","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+recorded_with: VCR 6.3.1

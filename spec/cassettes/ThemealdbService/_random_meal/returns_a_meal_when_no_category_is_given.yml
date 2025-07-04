@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 04 Jul 2025 17:57:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=tItQParyqDkzEW4hc%2Bo5t9NOSGqV5z8phOlqsAplzEHXtL8rEm572WTCXp%2B9GuJEVICQRv0RQjVttIRWsQjyyyzkYamUBRct66qGywZqYxZ1BGZIeOemoOS7AMKnvfmMu3jJDA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95a081523b4c34cd-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5459&min_rtt=5151&rtt_var=1655&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2832&recv_bytes=786&delivery_rate=742705&cwnd=252&unsent_bytes=0&cid=96d29d11797ccf5b&ts=109&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52885","strMeal":" Bubble & Squeak","strMealAlternate":null,"strCategory":"Pork","strArea":"British","strInstructions":"Melt
+        the fat in a non-stick pan, allow it to get nice and hot, then add the bacon.
+        As it begins to brown, add the onion and garlic. Next, add the sliced sprouts
+        or cabbage and let it colour slightly. All this will take 5-6 mins.\r\nNext,
+        add the potato. Work everything together in the pan and push it down so that
+        the mixture covers the base of the pan \u2013 allow the mixture to catch slightly
+        on the base of the pan before turning it over and doing the same again. It\u2019s
+        the bits of potato that catch in the pan that define the term \u2018bubble
+        and squeak\u2019, so be brave and let the mixture colour. Cut into wedges
+        and serve.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xusqvw1511638311.jpg","strTags":"SideDish,Speciality","strYoutube":"https:\/\/www.youtube.com\/watch?v=etbJ9ssgsWY","strIngredient1":"Butter","strIngredient2":"Bacon","strIngredient3":"Onion","strIngredient4":"Garlic
+        Clove","strIngredient5":"Brussels Sprouts","strIngredient6":"Potatoes","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
+        tbs","strMeasure2":"4","strMeasure3":"1 finely sliced","strMeasure4":"1 chopped","strMeasure5":"20","strMeasure6":"400g","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/164622\/bubble-and-squeak","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+recorded_with: VCR 6.3.1

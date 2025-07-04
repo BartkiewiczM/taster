@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 04 Jul 2025 17:57:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=PtdllgyPJSymhB%2FjTdioz%2F%2FhAUlMbAPB9FwU4KSrcEycQt3juZo9suavxAP0G8ktG0m2Yq%2FeLR0XQLAux0Q9zBT25YaNfQeBCBg4O7IKNzWER%2BEHPZmdtN35G1ps81h387l5fw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95a081531b4eef8f-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5334&min_rtt=5237&rtt_var=1609&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2830&recv_bytes=786&delivery_rate=732472&cwnd=252&unsent_bytes=0&cid=3dea281fbaf047fd&ts=95&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52917","strMeal":"White chocolate creme brulee","strMealAlternate":null,"strCategory":"Dessert","strArea":"French","strInstructions":"Heat
+        the cream, chocolate and vanilla pod in a pan until the chocolate has melted.
+        Take off the heat and allow to infuse for 10 mins, scraping the pod seeds
+        into the cream. If using the vanilla extract, add straight away. Heat oven
+        to 160C\/fan 140C\/gas 3.\r\nBeat yolks and sugar until pale. stir in the
+        chocolate cream. Strain into a jug and pour into ramekins. Place in a deep
+        roasting tray and pour boiling water halfway up the sides. Bake for 15-20
+        mins until just set with a wobbly centre. Chill in the fridge for at least
+        4 hrs.\r\nTo serve, sprinkle some sugar on top of the br\u00fbl\u00e9es and
+        caramelise with a blowtorch or briefly under a hot grill. Leave caramel to
+        harden, then serve.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uryqru1511798039.jpg","strTags":"Desert,DinnerParty,Pudding","strYoutube":"https:\/\/www.youtube.com\/watch?v=LmJ0lsPLHDc","strIngredient1":"Double
+        Cream","strIngredient2":"White Chocolate Chips","strIngredient3":"Vanilla","strIngredient4":"Egg
+        Yolks","strIngredient5":"Caster Sugar","strIngredient6":"Caster Sugar","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"568ml","strMeasure2":"100g
+        ","strMeasure3":"Pod of","strMeasure4":"6","strMeasure5":"2 tbs","strMeasure6":"Top","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/2540\/white-chocolate-crme-brle","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+recorded_with: VCR 6.3.1
