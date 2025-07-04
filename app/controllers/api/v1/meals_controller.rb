@@ -1,6 +1,8 @@
 module Api
   module V1
     class MealsController < ApplicationController
+      before_action :authenticate_api_v1_user!
+
       def random
         meal_data = ThemealdbService.random_meal(params[:category])
 

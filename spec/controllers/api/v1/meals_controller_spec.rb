@@ -1,6 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Api::V1::MealsController, type: :controller do
+  let(:user) { User.create!(email: 'test@example.com', password: 'password123') }
+
   describe 'GET #random' do
     context 'when service returns a meal' do
       let(:mock_meal) do
@@ -14,6 +16,7 @@ RSpec.describe Api::V1::MealsController, type: :controller do
       end
 
       before do
+        sign_in user
         allow(ThemealdbService).to receive(:random_meal).and_return(mock_meal)
       end
 
@@ -28,6 +31,7 @@ RSpec.describe Api::V1::MealsController, type: :controller do
 
     context 'when service returns nil' do
       before do
+        sign_in user
         allow(ThemealdbService).to receive(:random_meal).and_return(nil)
       end
 
