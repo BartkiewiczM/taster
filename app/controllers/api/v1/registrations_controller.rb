@@ -8,7 +8,9 @@ module Api
 
         if resource.save
           warden.set_user(resource, scope: resource_name, store: false)
-          render json: { message: 'Signed up successfully.', user: resource }, status: :ok
+          token = request.env['warden-jwt_auth.token']
+
+          render json: { message: 'Signed up successfully.', user: resource, token: token }, status: :ok
         else
           render json: { errors: resource.errors.full_messages }, status: :unprocessable_entity
         end
