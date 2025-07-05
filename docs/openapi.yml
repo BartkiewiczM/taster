@@ -1,0 +1,76 @@
+openapi: 3.0.0
+info:
+  title: Taster API
+
+paths:
+  /api/v1/signup:
+    post:
+      summary: User signup
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                api_v1_user:
+                  type: object
+                  properties:
+                    email:
+                      type: string
+                    password:
+                      type: string
+                    password_confirmation:
+                      type: string
+              required: [api_v1_user]
+      responses:
+        '200':
+          description: Signed up successfully
+        '422':
+          description: Validation error
+
+  /api/v1/login:
+    post:
+      summary: User login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                api_v1_user:
+                  type: object
+                  properties:
+                    email:
+                      type: string
+                    password:
+                      type: string
+      responses:
+        '200':
+          description: Logged in successfully
+        '401':
+          description: Unauthorized
+
+  /api/v1/logout:
+    delete:
+      summary: User logout
+      responses:
+        '204':
+          description: Logged out
+
+  /api/v1/meals/random:
+    get:
+      summary: Get random meal
+      parameters:
+        - in: query
+          name: category
+          schema:
+            type: string
+          required: false
+          description: Category to filter meals
+      responses:
+        '200':
+          description: Random meal
+        '404':
+          description: Not found
