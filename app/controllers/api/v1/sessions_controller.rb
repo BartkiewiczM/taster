@@ -3,14 +3,20 @@ module Api
     class SessionsController < Devise::SessionsController
       respond_to :json
 
-      private
+      def create
+        self.resource = warden.authenticate!(auth_options)
+        warden.set_user(resource, scope: resource_name, store: false)
 
-      def respond_with(resource, _opts = {})
+        token = request.env['warden-jwt_auth.token']
+
         render json: {
           message: 'Logged in successfully.',
-          user: resource
+          user: resource,
+          token: token
         }, status: :ok
       end
+
+      private
 
       def respond_to_on_destroy
         head :no_content

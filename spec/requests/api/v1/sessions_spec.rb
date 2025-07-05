@@ -19,9 +19,10 @@ RSpec.describe 'API::V1::Sessions', type: :request do
 
         expect(response).to have_http_status(200)
         json = JSON.parse(response.body)
+
         expect(json['message']).to eq('Logged in successfully.')
         expect(json['user']['email']).to eq('test@example.com')
-        expect(response.headers['Authorization']).to be_present
+        expect(json['token']).to be_present
       end
     end
 
