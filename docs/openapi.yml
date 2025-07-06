@@ -104,8 +104,6 @@ paths:
                       type: string
                     category:
                       type: string
-                    description:
-                      type: string
                     image_url:
                       type: string
                     created_at:
@@ -157,8 +155,6 @@ paths:
                   name:
                     type: string
                   category:
-                    type: string
-                  description:
                     type: string
                   image_url:
                     type: string

@@ -21,7 +21,6 @@ RSpec.describe Api::V1::MealsController, type: :controller do
         external_api_id: '123',
         name: 'Test Meal',
         category: 'Dessert',
-        description: 'Do something',
         recipe: 'Do something',
         ingredients: 'Ingredient - 1',
         image_url: 'http://example.com/image.jpg'

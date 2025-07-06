@@ -25,7 +25,6 @@ RSpec.describe ThemealdbMealSerializer do
       id: '1234',
       name: 'Test Meal',
       category: 'Dessert',
-      description: 'Do something',
       recipe: 'Do something',
       image_url: 'http://example.com/image.jpg',
       external_api_id: '1234'

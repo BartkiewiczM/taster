@@ -29,7 +29,6 @@ RSpec.describe PersistMeal do
       expect(meal.external_api_id).to eq('123')
       expect(meal.name).to eq('Test Meal')
       expect(meal.category).to eq('Dessert')
-      expect(meal.description).to eq('Mix everything')
       expect(meal.recipe).to eq('Mix everything')
       expect(meal.ingredients).to include('Sugar - 1 cup', 'Flour - 2 cups')
       expect(meal.image_url).to eq('http://example.com/image.jpg')

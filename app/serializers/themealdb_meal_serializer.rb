@@ -10,7 +10,6 @@ class ThemealdbMealSerializer
       id: @meal['idMeal'],
       name: @meal['strMeal'],
       category: @meal['strCategory'],
-      description: @meal['strInstructions'],
       ingredients: ingredients,
       recipe: @meal['strInstructions'],
       image_url: @meal['strMealThumb'],

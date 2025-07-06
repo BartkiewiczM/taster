@@ -8,7 +8,6 @@ RSpec.describe MealHistorySerializer do
     Meal.create!(
       name: 'Pizza',
       category: 'Fast Food',
-      description: 'Delicious pizza',
       image_url: 'http://example.com/pizza.jpg',
       external_api_id: 'ext-123'
     )
@@ -31,7 +30,6 @@ RSpec.describe MealHistorySerializer do
     expect(serialized[:meal_id]).to eq(meal.external_api_id)
     expect(serialized[:name]).to eq(meal.name)
     expect(serialized[:category]).to eq(meal.category)
-    expect(serialized[:description]).to eq(meal.description)
     expect(serialized[:image_url]).to eq(meal.image_url)
     expect(serialized[:created_at].to_s).to eq(meal_history.created_at.to_s)
     expect(serialized[:favorite]).to eq(true)
