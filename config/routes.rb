@@ -4,17 +4,17 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       devise_for :users,
-        controllers: {
-          registrations: 'api/v1/registrations',
-          sessions: 'api/v1/sessions'
-        },
-        skip: [:passwords, :confirmations],
-        path: '',
-        path_names: {
-          sign_in: 'login',
-          sign_out: 'logout',
-          registration: 'signup'
-        }
+                 controllers: {
+                   registrations: 'api/v1/registrations',
+                   sessions: 'api/v1/sessions'
+                 },
+                 skip: [:passwords, :confirmations],
+                 path: '',
+                 path_names: {
+                   sign_in: 'login',
+                   sign_out: 'logout',
+                   registration: 'signup'
+                 }
 
       devise_scope :user do
         post '/login',  to: 'api/v1/sessions#create'
@@ -22,6 +22,8 @@ Rails.application.routes.draw do
       end
 
       get 'meals/random', to: 'meals#random'
+
+      resources :meal_histories, only: [:index, :update]
     end
   end
 end
