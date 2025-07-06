@@ -75,6 +75,42 @@ paths:
           description: Random meal
         '404':
           description: Not found
+    /api/v1/meals/{id}:
+    get:
+      summary: Get saved meal by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+          description: ID of the saved meal (internal ID)
+      responses:
+        '200':
+          description: Found meal
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  category:
+                    type: string
+                  recipe:
+                    type: string
+                  ingredients:
+                    type: array
+                    items:
+                      type: string
+                  image_url:
+                    type: string
+                  external_api_id:
+                    type: string
+        '404':
+          description: Meal not found
 
   /api/v1/meal_histories:
     get:

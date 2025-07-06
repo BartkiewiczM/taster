@@ -22,6 +22,7 @@ Rails.application.routes.draw do
       end
 
       get 'meals/random', to: 'meals#random'
+      resources :meals, only: [:show]
 
       resources :meal_histories, only: [:index, :update]
     end

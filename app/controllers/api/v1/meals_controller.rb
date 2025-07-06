@@ -22,6 +22,17 @@ module Api
 
         render json: ThemealdbMealSerializer.new(meal_data).as_json, status: :ok
       end
+
+      def show
+        meal = Meal.find_by(external_api_id: params[:id])
+
+        if meal.nil?
+          render json: { error: 'Meal not found' }, status: :not_found
+          return
+        end
+
+        render json: MealSerializer.new(meal).as_json, status: :ok
+      end
     end
   end
 end

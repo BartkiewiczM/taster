@@ -81,4 +81,36 @@ RSpec.describe Api::V1::MealsController, type: :controller do
       end
     end
   end
+
+  describe 'GET #show' do
+    let!(:meal) do
+      Meal.create!(
+        external_api_id: '999',
+        name: 'Saved Meal',
+        category: 'Pasta',
+        recipe: 'Cook it well.',
+        ingredients: "Pasta - 200g\nTomato - 1",
+        image_url: 'http://example.com/saved.jpg'
+      )
+    end
+
+    before { sign_in user }
+
+    it 'returns the saved meal by external_api_id' do
+      get :show, params: { id: '999' }
+
+      expect(response).to have_http_status(:ok)
+      json = JSON.parse(response.body)
+      expect(json['name']).to eq('Saved Meal')
+      expect(json['category']).to eq('Pasta')
+      expect(json['ingredients']).to include('Pasta - 200g')
+    end
+
+    it 'returns 404 if meal not found' do
+      get :show, params: { id: 'nonexistent' }
+
+      expect(response).to have_http_status(:not_found)
+      expect(JSON.parse(response.body)).to eq({ 'error' => 'Meal not found' })
+    end
+  end
 end
