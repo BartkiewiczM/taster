@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Api
   module V1
     class RegistrationsController < Devise::RegistrationsController
@@ -10,7 +12,8 @@ module Api
           warden.set_user(resource, scope: resource_name, store: false)
           token = request.env['warden-jwt_auth.token']
 
-          render json: { message: 'Signed up successfully.', user: resource, token: token }, status: :ok
+          render json: { message: 'Signed up successfully.', user: resource, token: token },
+                 status: :ok
         else
           render json: { errors: resource.errors.full_messages }, status: :unprocessable_entity
         end

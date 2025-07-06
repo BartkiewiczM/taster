@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ThemealdbMealSerializer
   def initialize(raw_data)
     @meal = raw_data

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Meal < ApplicationRecord
   validates :name, :category, :external_api_id, presence: true
 

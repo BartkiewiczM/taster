@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # spec/requests/api/v1/registrations_spec.rb
 require 'rails_helper'
 

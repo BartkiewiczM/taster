@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PersistMeal
   def self.call(meal_data)
     Meal.find_or_create_by!(external_api_id: meal_data['idMeal']) do |m|
