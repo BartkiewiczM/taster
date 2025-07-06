@@ -6,7 +6,7 @@ class ThemealdbService
   def self.random_meal(category = nil)
     return fetch_random_meal if category.blank?
 
-    5.times do # retry max 5 times to find a matching category not to overwhelm the API
+    15.times do # retry max 15 times to find a matching category not to overwhelm the API
       meal = fetch_random_meal
       return meal if meal['strCategory'].casecmp(category).zero?
     end
