@@ -1,6 +1,7 @@
 openapi: 3.0.0
 info:
   title: Taster API
+  version: "1.0.0"
 
 paths:
   /api/v1/signup:
@@ -74,3 +75,101 @@ paths:
           description: Random meal
         '404':
           description: Not found
+
+  /api/v1/meal_histories:
+    get:
+      summary: Get user's meal histories
+      parameters:
+        - in: query
+          name: favourite
+          schema:
+            type: boolean
+          required: false
+          description: Filter to return only favourite meal histories
+      responses:
+        '200':
+          description: List of meal histories
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    meal_id:
+                      type: string
+                    name:
+                      type: string
+                    category:
+                      type: string
+                    description:
+                      type: string
+                    image_url:
+                      type: string
+                    created_at:
+                      type: string
+                      format: date-time
+                    favorite:
+                      type: boolean
+                    rating:
+                      type: integer
+        '404':
+          description: No meal history found
+
+  /api/v1/meal_histories/{id}:
+    patch:
+      summary: Update meal history (favourite or rating)
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+          description: Meal history ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                meal_history:
+                  type: object
+                  properties:
+                    favourite:
+                      type: boolean
+                    rating:
+                      type: integer
+      responses:
+        '200':
+          description: Updated meal history
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  meal_id:
+                    type: string
+                  name:
+                    type: string
+                  category:
+                    type: string
+                  description:
+                    type: string
+                  image_url:
+                    type: string
+                  created_at:
+                    type: string
+                    format: date-time
+                  favorite:
+                    type: boolean
+                  rating:
+                    type: integer
+        '404':
+          description: Meal history not found
+        '422':
+          description: Validation failed
