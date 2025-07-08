@@ -64,4 +64,5 @@ gem "faraday", "~> 2.13"
 gem "vcr", "~> 6.3", :group => :test
 gem "webmock", "~> 3.25", :group => :test
 gem 'rack-cors'
+gem "openai", "~> 0.12.0"
 
