@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 04 Jul 2025 17:57:28 GMT
+      - Tue, 08 Jul 2025 23:04:51 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,41 +35,162 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=eoGpaG05yfwKLPSnNE%2FP4xelvTvIJ62tRaQnO9%2Fm99X8aEWwJ8fE3IAXupNtMOmC85HNWvQPp%2BwR5WYU9WcKKdqDIFHlyefv8uBKSYmK1258HzNCsCWWNjTjAjFZqmIGLcLmuA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=fnu4qr9HLYvvi5oSDHYL5HG6FfAGx8%2BxzNd1BahB2chw42fHd2g%2BPurnaCYimvQyRyDkWF2nLFMSqahaBkwv2nxBJXNoI8N9d3sLtMch%2BfcJFci5memJkwrynyDLM2%2B%2Bvcs1SQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 95a08153ec43b620-WAW
+      - 95c33918cc79ef95-WAW
       Alt-Svc:
       - h3=":443"; ma=86400
       Server-Timing:
-      - cfL4;desc="?proto=TCP&rtt=5475&min_rtt=5361&rtt_var=1722&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2831&recv_bytes=786&delivery_rate=691358&cwnd=252&unsent_bytes=0&cid=894a7c5996927902&ts=132&x=0"
+      - cfL4;desc="?proto=TCP&rtt=5277&min_rtt=5064&rtt_var=1621&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2832&recv_bytes=786&delivery_rate=740218&cwnd=252&unsent_bytes=0&cid=347cf0e9b6b09edb&ts=105&x=0"
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52969","strMeal":"Chakchouka ","strMealAlternate":null,"strCategory":"Miscellaneous","strArea":"Tunisian","strInstructions":"In
-        a large cast iron skillet or saut\u00e9 pan with a lid, heat oil over medium
-        high heat. Add the onion and saut\u00e9 for 2-3 minutes, until softened. Add
-        the peppers and garlic, and saut\u00e9 for an additional 3-5 minutes. Add
-        the tomatoes, cumin, paprika, salt, and chili powder. Mix well and bring the
-        mixture to a simmer. Reduce the heat to medium low and continue to simmer,
-        uncovered, 10-15 minutes until the mixture has thickened to your desired consistency.
-        (Taste the sauce at this point and adjust for salt and spice, as desired.)
-        Using the back of a spoon, make four craters in the mixture, large enough
-        to hold an egg. Crack one egg into each of the craters. Cover the skillet
-        and simmer for 5-7 minutes, until the eggs have set. Serve immediately with
-        crusty bread or pita.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/gpz67p1560458984.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=EHKNu93MSx4","strIngredient1":"Tomatoes","strIngredient2":"Olive
-        Oil","strIngredient3":"Onion","strIngredient4":"Red Pepper","strIngredient5":"Green
-        Pepper","strIngredient6":"Garlic","strIngredient7":"Cumin","strIngredient8":"Paprika","strIngredient9":"Salt","strIngredient10":"Chili
-        Powder","strIngredient11":"Eggs","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"4","strMeasure2":"2
-        tbs","strMeasure3":"1 Diced","strMeasure4":"1 sliced","strMeasure5":"1 sliced","strMeasure6":"3
-        Cloves Crushed","strMeasure7":"1 tsp ","strMeasure8":"1 tsp ","strMeasure9":"3\/4
-        teaspoon","strMeasure10":"1\/2 teaspoon","strMeasure11":"4","strMeasure12":"
+      string: '{"meals":[{"idMeal":"52866","strMeal":"Squash linguine","strMealAlternate":null,"strCategory":"Vegetarian","strArea":"Italian","strInstructions":"Heat
+        oven to 200C\/180C fan\/gas 6. Put the squash and garlic on a baking tray
+        and drizzle with the olive oil. Roast for 35-40 mins until soft. Season.\r\nCook
+        the pasta according to pack instructions. Drain, reserving the water. Use
+        a stick blender to whizz the squash with 400ml cooking water. Heat some oil
+        in a frying pan, fry the sage until crisp, then drain on kitchen paper. Tip
+        the pasta and sauce into the pan and warm through. Scatter with sage.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wxswxy1511452625.jpg","strTags":"Pasta,Light","strYoutube":"https:\/\/www.youtube.com\/watch?v=xHZ-PoGwTLQ","strIngredient1":"Butternut
+        Squash","strIngredient2":"Garlic","strIngredient3":"Olive Oil","strIngredient4":"Linguine
+        Pasta","strIngredient5":"Sage","strIngredient6":"","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"350g","strMeasure2":"3
+        parts ","strMeasure3":"3 tbs","strMeasure4":"350g","strMeasure5":"Small bunch","strMeasure6":"","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/creamy-squash-linguine","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:51 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Jul 2025 23:04:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=kj0a%2FQW6HaURhswLDRyhi2U1%2BXbZLl%2BeUSNoUXaK%2BTdmepJyrG4NPKaVh6UffFnXuOF7xEd6NhzkFVt3Gidx2u%2BTOBSWFDkhC8d02NHbi6riNcYmw3LH5vKhXzCWJQdB8DDRvg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95c339198869eecd-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=6574&min_rtt=4851&rtt_var=2646&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2831&recv_bytes=786&delivery_rate=752148&cwnd=252&unsent_bytes=0&cid=f89164f954b59c24&ts=92&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52950","strMeal":"Szechuan Beef","strMealAlternate":null,"strCategory":"Beef","strArea":"Chinese","strInstructions":"STEP
+        1 - MARINATING THE BEEF\r\nIn a bowl, add the beef, salt, sesame seed oil,
+        white pepper, egg white, 2 Tablespoon of corn starch and 1 Tablespoon of oil.\r\nSTEP
+        2 - STIR FRY\r\nFirst Cook the beef by adding 2 Tablespoon of oil until the
+        beef is golden brown.\r\nSet the beef aside\r\nIn a wok add 1 Tablespoon of
+        oil, minced ginger, minced garlic and stir-fry for few seconds.\r\nNext add
+        all of the vegetables and then add sherry cooking wine and 1 cup of water.\r\nTo
+        make the sauce add oyster sauce, hot pepper sauce, and sugar.\r\nadd the cooked
+        beef and 1 spoon of soy sauce\r\nTo thicken the sauce, whisk together 1 Tablespoon
+        of cornstarch and 2 Tablespoon of water in a bowl and slowly add to your stir-fry
+        until it''s the right thickness.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529443236.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=SQGZqZYz7Ms","strIngredient1":"Beef","strIngredient2":"Salt","strIngredient3":"Sesame
+        Seed Oil","strIngredient4":"Pepper","strIngredient5":"Egg White","strIngredient6":"Starch","strIngredient7":"Oil","strIngredient8":"Ginger","strIngredient9":"Garlic","strIngredient10":"Onion","strIngredient11":"Carrots","strIngredient12":"Green
+        Pepper","strIngredient13":"Celery","strIngredient14":"Mushrooms","strIngredient15":"Cooking
+        wine","strIngredient16":"Water","strIngredient17":"Oyster Sauce","strIngredient18":"Hotsauce","strIngredient19":"Sugar","strIngredient20":"Soy
+        Sauce","strMeasure1":"1\/2 lb","strMeasure2":"1\/2 tsp","strMeasure3":"1 tsp
+        ","strMeasure4":"1 pinch","strMeasure5":"1","strMeasure6":"3 tbs","strMeasure7":"4
+        tbs","strMeasure8":"1 tsp ","strMeasure9":"1 tsp ","strMeasure10":"3\/4 cup
+        ","strMeasure11":"1\/2 cup ","strMeasure12":"3\/4 cup ","strMeasure13":"1
+        cup ","strMeasure14":"1 cup ","strMeasure15":"1 tbs","strMeasure16":"1 cup
+        ","strMeasure17":"1 tbs","strMeasure18":"1\/2 tsp","strMeasure19":"1 tsp ","strMeasure20":"1
+        tbs","strSource":"https:\/\/sueandgambo.com\/pages\/szechuan-beef","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:51 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Jul 2025 23:04:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=GyNUYxCHcSDmZT%2BYuNriaH3O%2F4ziUrH74j6U3qqy26CC2u2kHSGKfBBKTr8qYAXEPzoDysibX70gtZGtdm1VIxwgYPv9GxlV4SWHoULBJwLrDUYNPQVnvInhePFypgM2t66log%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95c3391a4908b61d-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5873&min_rtt=5718&rtt_var=1895&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2830&recv_bytes=786&delivery_rate=634249&cwnd=252&unsent_bytes=0&cid=be322042b677106e&ts=97&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"53058","strMeal":"Croatian Bean Stew","strMealAlternate":null,"strCategory":"Beef","strArea":"Croatian","strInstructions":"Heat
+        the oil in a pan. Add the chopped vegetables and saut\u00e9 until tender.
+        Take a pot, empty the beans together with the vegetables into it, put the
+        sausages inside and cook for further 20 minutes on a low heat. Or, put it
+        in an oven and bake it at a temperature of 180\u00baC\/350\u00baF for 30 minutes.
+        This dish is even better reheated the next day.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/tnwy8m1628770384.jpg","strTags":"Warming,Soup,Beans","strYoutube":"https:\/\/www.youtube.com\/watch?v=mrjnQal3S1A","strIngredient1":"Cannellini
+        Beans","strIngredient2":"Vegetable Oil","strIngredient3":"Tomatoes","strIngredient4":"Challots","strIngredient5":"Garlic","strIngredient6":"Parsley","strIngredient7":"Chorizo","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"2
+        cans","strMeasure2":"3 tbs","strMeasure3":"2 cups ","strMeasure4":"5","strMeasure5":"2
+        cloves","strMeasure6":"Pinch","strMeasure7":"1\/2 kg chopped ","strMeasure8":"
+        ","strMeasure9":" ","strMeasure10":" ","strMeasure11":" ","strMeasure12":"
         ","strMeasure13":" ","strMeasure14":" ","strMeasure15":" ","strMeasure16":"
         ","strMeasure17":" ","strMeasure18":" ","strMeasure19":" ","strMeasure20":"
-        ","strSource":"https:\/\/www.curiouscuisiniere.com\/chakchouka\/","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+        ","strSource":"https:\/\/www.visit-croatia.co.uk\/croatian-cuisine\/croatian-recipes\/","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:51 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v1/1/random.php
@@ -89,7 +210,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 04 Jul 2025 17:57:28 GMT
+      - Tue, 08 Jul 2025 23:04:51 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -105,34 +226,36 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=PuRqOv%2BdRL5xEZpVjkRt8v%2B5%2BrLLYUR3Yz9%2FKjgZUcHBHWeUaWh3usLzwJc4akys0SPZia5BCSJWN4xF%2Fm%2F6qgozO%2F2gsm8jX7AzO%2B8v34INd9rD4hzrs3brdTVHGEQzs17%2FLQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=jsXMr6tHLC7GT5a6Pv0Z2YOTcJkiH6sTTXqosFsACJOurg78s6eqSU1Od3xLBFO36gZiqAnELsntNssK5v2FriFhQji5Qd48VxEY7P6CkwlpjpRwjM8XusoiOQLOG5T0Rxmydg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 95a08154fa3bc3bb-WAW
+      - 95c3391b1f0ac40f-WAW
       Alt-Svc:
       - h3=":443"; ma=86400
       Server-Timing:
-      - cfL4;desc="?proto=TCP&rtt=5500&min_rtt=5331&rtt_var=1711&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2830&recv_bytes=786&delivery_rate=691244&cwnd=252&unsent_bytes=0&cid=7568f565f1b0a7bf&ts=123&x=0"
+      - cfL4;desc="?proto=TCP&rtt=5374&min_rtt=5094&rtt_var=1657&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2830&recv_bytes=786&delivery_rate=733240&cwnd=252&unsent_bytes=0&cid=853c88b93db9e217&ts=113&x=0"
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52769","strMeal":"Kapsalon","strMealAlternate":null,"strCategory":"Lamb","strArea":"Dutch","strInstructions":"Cut
-        the meat into strips. Heat oil in a pan and fry the strips for 6 minutes until
-        it''s ready.\r\nBake the fries until golden brown in a deep fryrer. When ready
-        transfer to a backing dish. Make sure the fries are spread over the whole
-        dish.\r\nCover the fries with a new layer of meat and spread evenly.\r\nAdd
-        a layer of cheese over the meat. You can also use grated cheese. When done
-        put in the oven for a few minutes until the cheese is melted.\r\nChop the
-        lettuce, tomato and cucumber in small pieces and mix together. for a basic
-        salad. As extra you can add olives jalapenos and a red union.\r\nDived the
-        salad over the dish and Serve with garlicsauce and hot sauce","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sxysrt1468240488.jpg","strTags":"Snack","strYoutube":"https:\/\/www.youtube.com\/watch?v=UIcuiU1kV8I","strIngredient1":"Fries","strIngredient2":"Doner
-        Meat","strIngredient3":"Garlic sauce","strIngredient4":"Hotsauce","strIngredient5":"Lettuce","strIngredient6":"Tomato","strIngredient7":"Cucumber","strIngredient8":"Gouda
-        cheese","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"250
-        Grams","strMeasure2":"500 Grams","strMeasure3":"Topping","strMeasure4":"Topping","strMeasure5":"1
-        Bulb","strMeasure6":"1","strMeasure7":"3rd","strMeasure8":"100 Grams","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+      string: '{"meals":[{"idMeal":"52770","strMeal":"Spaghetti Bolognese","strMealAlternate":null,"strCategory":"Beef","strArea":"Italian","strInstructions":"Put
+        the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins.
+        Add the garlic and mince and fry until they both brown. Add the mushrooms
+        and herbs, and cook for another couple of mins.\r\n\r\nStir in the tomatoes,
+        beef stock, tomato ketchup or pur\u00e9e, Worcestershire sauce and seasoning.
+        Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally,
+        for 30 mins.\r\n\r\nMeanwhile, cook the spaghetti in a large pan of boiling,
+        salted water, according to packet instructions. Drain well, run hot water
+        through it, put it back in the pan and add a dash of olive oil, if you like,
+        then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese,
+        for sprinkling on top.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sutysw1468247559.jpg","strTags":"Pasta,Meat","strYoutube":"https:\/\/www.youtube.com\/watch?v=-gF8d-fitkU","strIngredient1":"onions","strIngredient2":"olive
+        oil","strIngredient3":"garlic","strIngredient4":"lean minced beef","strIngredient5":"mushrooms","strIngredient6":"dried
+        oregano","strIngredient7":"tomatoes","strIngredient8":"hot beef stock","strIngredient9":"tomato
+        puree","strIngredient10":"worcestershire sauce","strIngredient11":"spaghetti","strIngredient12":"parmesan","strIngredient13":null,"strIngredient14":null,"strIngredient15":null,"strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"2","strMeasure2":"1tbsp","strMeasure3":"1
+        clove","strMeasure4":"500g","strMeasure5":"90g","strMeasure6":"1tsp","strMeasure7":"400g
+        can","strMeasure8":"300ml","strMeasure9":"1tbsp","strMeasure10":"1tbsp","strMeasure11":"350g","strMeasure12":"Topping","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:51 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v1/1/random.php
@@ -152,7 +275,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 04 Jul 2025 17:57:28 GMT
+      - Tue, 08 Jul 2025 23:04:51 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -168,37 +291,55 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=xE6x1pXZ2vnCyk7piTvw1%2FgD4Lib8yTfGe55JnvhQ3wT8I3H541JHf2LDZ2TKA7O4VwVWSf%2FHTwZ7ZwMXC2FJy1PdrOX%2BeWJXWTrx8%2FvrNlfNCY453%2F%2B1cfhMk8oMXQ%2BlvNkkA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=yiSS2Uq0brHOdtcFQ4VjceYuVFfDg7v16RgbnV3GjDryH67SMJl4SZEvoOIAiTK0nQfmDaRAK7EjPo8OjkTozUOWGPlzYQJ8g5ZweeiNu4DxzFW0LzrWbiie1FequXDZukTXDQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 95a08155ea76ef8d-WAW
+      - 95c3391bfd893566-WAW
       Alt-Svc:
       - h3=":443"; ma=86400
       Server-Timing:
-      - cfL4;desc="?proto=TCP&rtt=5818&min_rtt=5712&rtt_var=1809&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2830&recv_bytes=786&delivery_rate=655124&cwnd=252&unsent_bytes=0&cid=07eaf58509643805&ts=76&x=0"
+      - cfL4;desc="?proto=TCP&rtt=5659&min_rtt=5525&rtt_var=1726&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2830&recv_bytes=786&delivery_rate=684039&cwnd=252&unsent_bytes=0&cid=6c543819e12d0a03&ts=116&x=0"
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52884","strMeal":"Lancashire hotpot","strMealAlternate":null,"strCategory":"Lamb","strArea":"British","strInstructions":"Heat
-        oven to 160C\/fan 140C\/gas 3. Heat some dripping or butter in a large shallow
-        casserole dish, brown the lamb in batches, lift to a plate, then repeat with
-        the kidneys.\r\nFry the onions and carrots in the pan with a little more dripping
-        until golden. Sprinkle over the flour, allow to cook for a couple of mins,
-        shake over the Worcestershire sauce, pour in the stock, then bring to the
-        boil. Stir in the meat and bay leaves, then turn off the heat. Arrange the
-        sliced potatoes on top of the meat, then drizzle with a little more dripping.
-        Cover, then place in the oven for about 1\u00bd hrs until the potatoes are
-        cooked.\r\nRemove the lid, brush the potatoes with a little more dripping,
-        then turn the oven up to brown the potatoes, or finish under the grill for
-        5-8 mins until brown.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uttrxw1511637813.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=w6TS5J8YRA4","strIngredient1":"Butter","strIngredient2":"Lamb","strIngredient3":"Lamb
-        Kidney","strIngredient4":"Onions","strIngredient5":"Carrots","strIngredient6":"Plain
-        Flour","strIngredient7":"Worcestershire Sauce","strIngredient8":"Chicken Stock","strIngredient9":"Bay
-        Leaves","strIngredient10":"Potatoes","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"100g
-        ","strMeasure2":"900g","strMeasure3":"3","strMeasure4":"2 medium","strMeasure5":"4
-        sliced","strMeasure6":"25g","strMeasure7":"2 tsp","strMeasure8":"500ml","strMeasure9":"2","strMeasure10":"900g","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/9099\/lancashire-hotpot","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+      string: '{"meals":[{"idMeal":"52836","strMeal":"Seafood fideu\u00e0","strMealAlternate":null,"strCategory":"Seafood","strArea":"Spanish","strInstructions":"Boil
+        the kettle. Empty the mussels into a colander and run under cold water. Throw
+        away any with broken shells. Pick through the shells, tapping each one on
+        the side of the sink \u2013 they should be closed or should slowly close when
+        tapped \u2013 if they stay open, throw them away. If any of the shells still
+        have barnacles or stringy beards attached, pull them off with a cutlery knife
+        and rinse the shells well. Keep in the colander, covered with a cold, damp
+        cloth, until you\u2019re ready to cook. Peel the prawn shells on the body
+        section only \u2013 leave the heads and tails intact. Score down the backs
+        and pull out any gritty entrails. Chill until you\u2019re ready to cook.\r\nPut
+        the saffron in a small cup, cover with 50ml kettle-hot water and set aside
+        for 10 mins. If using vermicelli, put in a bowl and crush to little pieces
+        (about 1cm long) with your hands.\r\nHeat the oil in a large frying pan with
+        at least a 3cm lip, or a 40cm paella pan. Add the onion and stir around the
+        pan for 5 mins until soft. Add the garlic and cook for 1 min more, then tip
+        in the vermicelli and cook for 5 mins, stirring from time to time, until the
+        vermicelli is toasted brown. Stir in the paprika.\r\nKeeping the heat moderate,
+        stir through the monkfish, squid and saffron with its water, seasoning well.
+        Spread the ingredients out in an even layer, then pour over the hot stock
+        and scatter the tomatoes on top. Bring to a simmer, then cover the whole dish
+        with a tight-fitting lid (or foil). Turn the heat to medium and cook for 6
+        mins.\r\nUncover and stir to incorporate the dry top layer of pasta. Push
+        the mussels into the pasta so the hinges are buried in the bottom of the dish,
+        and they stand straight up. Arrange the prawns on top, cover tightly and cook
+        for another 6 mins or until the mussels are open, the prawns are pink and
+        the pasta is cooked through. Leave to simmer for another 2-3 mins to cook
+        off most of the remaining liquid (leave a little in the pan to prevent the
+        pasta from sticking together). Allow to sit for 2-3 mins, then squeeze over
+        the lemon juice and arrange the wedges on top. Scatter with parsley before
+        serving.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wqqvyq1511179730.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=itsFEc8W468","strIngredient1":"Mussels","strIngredient2":"Prawns","strIngredient3":"Saffron","strIngredient4":"Vermicelli
+        Pasta","strIngredient5":"Olive Oil","strIngredient6":"Onions","strIngredient7":"Garlic","strIngredient8":"Paprika","strIngredient9":"Monkfish","strIngredient10":"Baby
+        Squid","strIngredient11":"Fish Stock","strIngredient12":"Tomatoes","strIngredient13":"Lemon","strIngredient14":"Parsley","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"400g","strMeasure2":"8","strMeasure3":"2
+        pinches","strMeasure4":"350g","strMeasure5":"5 tblsp ","strMeasure6":"1 large","strMeasure7":"3
+        cloves","strMeasure8":"2 tbs","strMeasure9":"1 tail","strMeasure10":"4","strMeasure11":"650ml","strMeasure12":"2
+        large","strMeasure13":"Juice of 1","strMeasure14":"Topping","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/seafood-fideua-paella","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:51 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v1/1/random.php
@@ -218,7 +359,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 04 Jul 2025 17:57:28 GMT
+      - Tue, 08 Jul 2025 23:04:52 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -234,34 +375,34 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=c2lHMFju2ijRYwjrLE1dCNVAWuUwNS0yr9tLkAu2kbGyIeq5KQXrfk%2FzCc2nfgfhZrxpw6f%2Fc3f3jX8gLCiUJsPWLW3Ma08xWNNeAagFuqG7dnJlLD3iox49alJCRpcnJlofyw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ea%2BJCQv9OlZDXAWreflR73Ncl4VaGZVkJ7PjusjiXxArcGdmIONj95F3lkDys6jZzk4B%2B%2FKagEeuzEP9zOBjI4sXS%2B3pfm4Dnb2oE6mSP%2BqfnNj6aNuBIYLCVD0dSNlVpX7kgg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 95a081567965ee4b-WAW
+      - 95c3391cdefbef91-WAW
       Alt-Svc:
       - h3=":443"; ma=86400
       Server-Timing:
-      - cfL4;desc="?proto=TCP&rtt=5521&min_rtt=5401&rtt_var=1744&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2832&recv_bytes=786&delivery_rate=683148&cwnd=252&unsent_bytes=0&cid=bdf803f485bb9bd3&ts=93&x=0"
+      - cfL4;desc="?proto=TCP&rtt=5296&min_rtt=5051&rtt_var=1910&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2830&recv_bytes=786&delivery_rate=600686&cwnd=252&unsent_bytes=0&cid=b58b3587600c1e6f&ts=92&x=0"
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"53086","strMeal":"Migas","strMealAlternate":null,"strCategory":"Miscellaneous","strArea":"Spanish","strInstructions":"Crumble
-        the bread into small pieces. Sprinkle with cold water, cover with a damp cloth
-        and leave for 30 minutes.\r\nHeat 2 tsp of olive oil in a deep pan. Add the
-        garlic cloves separated, skins on; just make a small cut with a knife to open
-        them and keep frying for 5 minutes. Set the garlic aside.\r\nIn the same oil,
-        where we fried everything, simmer the bread, stirring constantly for 15 minutes
-        and add a grinding of black pepper.\r\nAdd the garlic, continue stirring for
-        about 20 minutes. It will be ready when the bread is soft and golden.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xd9aj21740432378.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=GSvFVBpqMKI","strIngredient1":"Bread","strIngredient2":"Olive
-        Oil","strIngredient3":"Garlic","strIngredient4":"Pork","strIngredient5":"","strIngredient6":"","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
-        large","strMeasure2":"1 1\/2 L ","strMeasure3":"Half","strMeasure4":"1 Handfull","strMeasure5":"
-        ","strMeasure6":" ","strMeasure7":" ","strMeasure8":" ","strMeasure9":" ","strMeasure10":"
-        ","strMeasure11":" ","strMeasure12":" ","strMeasure13":" ","strMeasure14":"
-        ","strMeasure15":" ","strMeasure16":" ","strMeasure17":" ","strMeasure18":"
-        ","strMeasure19":" ","strMeasure20":" ","strSource":"https:\/\/www.ibericafood.com\/Recipes\/post\/migas-with-pork","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+      string: '{"meals":[{"idMeal":"52851","strMeal":"Nutty Chicken Curry","strMealAlternate":null,"strCategory":"Chicken","strArea":"Indian","strInstructions":"Finely
+        slice a quarter of the chilli, then put the rest in a food processor with
+        the ginger, garlic, coriander stalks and one-third of the leaves. Whizz to
+        a rough paste with a splash of water if needed.\r\nHeat the oil in a frying
+        pan, then quickly brown the chicken chunks for 1 min. Stir in the paste for
+        another min, then add the peanut butter, stock and yogurt. When the sauce
+        is gently bubbling, cook for 10 mins until the chicken is just cooked through
+        and sauce thickened. Stir in most of the remaining coriander, then scatter
+        the rest on top with the chilli, if using. Eat with rice or mashed sweet potato.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yxsurp1511304301.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=nSQNfZxOdeU","strIngredient1":"Red
+        Chilli","strIngredient2":"Ginger","strIngredient3":"Garlic","strIngredient4":"Coriander","strIngredient5":"Sunflower
+        Oil","strIngredient6":"Chicken Breasts","strIngredient7":"Peanut Butter","strIngredient8":"Chicken
+        Stock","strIngredient9":"Greek Yogurt","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
+        large","strMeasure2":"0.5","strMeasure3":"1 large","strMeasure4":"Bunch","strMeasure5":"1
+        tbsp","strMeasure6":"4","strMeasure7":"5 tblsp ","strMeasure8":"150ml","strMeasure9":"200g","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/11753\/nutty-chicken-curry","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:51 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v1/1/random.php
@@ -281,7 +422,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 04 Jul 2025 17:57:28 GMT
+      - Tue, 08 Jul 2025 23:04:52 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -297,37 +438,612 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=a2espIjJEg1fjuZN76T%2FfloGJDpXLDx44lggPlNejzaS1s9Wcf4Di1IRgUGz7MXXOqmc4K8ShFY474SyGaUhTk9IhmmPoEOGeA5hOrJiZcnFf2shNQJsNMnasQ%2FpdVRaDj73hA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=nUCY9t2eA5UPEHIttSVFhVOj1UJdEkh00UbAh6zTijl%2FAWvMbDJU5mU4tmGQescKo9DH2lbbjuKFS50AxyHkSu5lLsuEncpNTbmSQ8UnFKMH%2B%2F34WzP%2B%2B0WAhq%2FJK3FagluR0g%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 95a081573cc534d0-WAW
+      - 95c3391d8e6abbbe-WAW
       Alt-Svc:
       - h3=":443"; ma=86400
       Server-Timing:
-      - cfL4;desc="?proto=TCP&rtt=5949&min_rtt=5283&rtt_var=1917&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2831&recv_bytes=786&delivery_rate=731579&cwnd=252&unsent_bytes=0&cid=8ae5ddff18cab33e&ts=77&x=0"
+      - cfL4;desc="?proto=TCP&rtt=5476&min_rtt=5382&rtt_var=1649&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2831&recv_bytes=786&delivery_rate=714285&cwnd=252&unsent_bytes=0&cid=03673a77ecb2d7f4&ts=106&x=0"
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52845","strMeal":"Turkey Meatloaf","strMealAlternate":null,"strCategory":"Miscellaneous","strArea":"British","strInstructions":"Heat
-        oven to 180C\/160C fan\/gas 4. Heat the oil in a large frying pan and cook
-        the onion for 8-10 mins until softened. Add the garlic, Worcestershire sauce
-        and 2 tsp tomato pur\u00e9e, and stir until combined. Set aside to cool.\r\n\r\nPut
-        the turkey mince, egg, breadcrumbs and cooled onion mix in a large bowl and
-        season well. Mix everything to combine, then shape into a rectangular loaf
-        and place in a large roasting tin. Spread 2 tbsp barbecue sauce over the meatloaf
-        and bake for 30 mins.\r\n\r\nMeanwhile, drain 1 can of beans only, then pour
-        both cans into a large bowl. Add the remaining barbecue sauce and tomato pur\u00e9e.
-        Season and set aside.\r\n\r\nWhen the meatloaf has had its initial cooking
-        time, scatter the beans around the outside and bake for 15 mins more until
-        the meatloaf is cooked through and the beans are piping hot. Scatter over
-        the parsley and serve the meatloaf in slices.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ypuxtw1511297463.jpg","strTags":"Baking","strYoutube":"https:\/\/www.youtube.com\/watch?v=mTvlmY4vCug","strIngredient1":"Olive
-        Oil","strIngredient2":"Onion","strIngredient3":"Garlic","strIngredient4":"Worcestershire
-        Sauce","strIngredient5":"Tomato Puree","strIngredient6":"Turkey Mince","strIngredient7":"Eggs","strIngredient8":"Breadcrumbs","strIngredient9":"Barbeque
-        Sauce","strIngredient10":"Cannellini Beans","strIngredient11":"Parsley","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
-        tblsp ","strMeasure2":"1 large","strMeasure3":"1 clove peeled crushed","strMeasure4":"2
-        tblsp ","strMeasure5":"3 tsp","strMeasure6":"500g","strMeasure7":"1 large","strMeasure8":"85g","strMeasure9":"2
-        tblsp ","strMeasure10":"800g","strMeasure11":"2 tblsp ","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/turkey-meatloaf","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Fri, 04 Jul 2025 17:57:28 GMT
+      string: '{"meals":[{"idMeal":"52765","strMeal":"Chicken Enchilada Casserole","strMealAlternate":null,"strCategory":"Chicken","strArea":"Mexican","strInstructions":"Cut
+        each chicken breast in about 3 pieces, so that it cooks faster and put it
+        in a small pot. Pour Enchilada sauce over it and cook covered on low to medium
+        heat until chicken is cooked through, about 20 minutes. No water is needed,
+        the chicken will cook in the Enchilada sauce. Make sure you stir occasionally
+        so that it doesn''t stick to the bottom.\r\nRemove chicken from the pot and
+        shred with two forks.\r\nPreheat oven to 375 F degrees.\r\nStart layering
+        the casserole. Start with about \u00bc cup of the leftover Enchilada sauce
+        over the bottom of a baking dish. I used a longer baking dish, so that I can
+        put 2 corn tortillas across. Place 2 tortillas on the bottom, top with \u2153
+        of the chicken and \u2153 of the remaining sauce. Sprinkle with \u2153 of
+        the cheese and repeat starting with 2 more tortillas, then chicken, sauce,
+        cheese. Repeat with last layer with the remaining ingredients, tortillas,
+        chicken, sauce and cheese.\r\nBake for 20 to 30 minutes uncovered, until bubbly
+        and cheese has melted and started to brown on top.\r\nServe warm.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qtuwxu1468233098.jpg","strTags":"Casserole,Cheasy,Meat","strYoutube":"https:\/\/www.youtube.com\/watch?v=EtVkwVKLc_M","strIngredient1":"Enchilada
+        sauce","strIngredient2":"shredded Monterey Jack cheese","strIngredient3":"corn
+        tortillas","strIngredient4":"chicken breasts","strIngredient5":null,"strIngredient6":null,"strIngredient7":null,"strIngredient8":null,"strIngredient9":null,"strIngredient10":null,"strIngredient11":null,"strIngredient12":null,"strIngredient13":null,"strIngredient14":null,"strIngredient15":null,"strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"14
+        oz jar","strMeasure2":"3 Cups","strMeasure3":"6","strMeasure4":"2","strMeasure5":null,"strMeasure6":null,"strMeasure7":null,"strMeasure8":null,"strMeasure9":null,"strMeasure10":null,"strMeasure11":null,"strMeasure12":null,"strMeasure13":null,"strMeasure14":null,"strMeasure15":null,"strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:52 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Jul 2025 23:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=jNihtxw5K9ff8GLUcUfj1GUOYC4Xo3fswt2nJXBPyyJBfhfD6CvTCavsqdkv4J%2FWm0oyAqSC%2Ffjqmuqc1wcwIQ4Y3fvCz%2BJ4FU%2Bvtp%2FJInFU6uUCYsJ6QSJ6BLaGj%2F3SldsijA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95c3391e4ad7c3e7-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5362&min_rtt=5169&rtt_var=1646&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2831&recv_bytes=786&delivery_rate=725764&cwnd=252&unsent_bytes=0&cid=4e028a896b4ac2f8&ts=112&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52921","strMeal":"Proven\u00e7al Omelette Cake","strMealAlternate":null,"strCategory":"Vegetarian","strArea":"French","strInstructions":"Break
+        the eggs into two bowls, five in each. Whisk lightly and season with salt
+        and pepper. Heat the oil in a pan, add the courgettes and spring onions, then
+        fry gently for about 10 mins until softened. Cool, then stir into one bowl
+        of eggs with a little salt and pepper. Add the roasted peppers to the other
+        bowl of eggs with the garlic, chilli, salt and pepper.\r\nHeat a little oil
+        in a 20-23cm frying pan, preferably non-stick. Pour the eggs with courgette
+        into a measuring jug, then pourabout one-third of the mixture into the pan,
+        swirling it to cover the base of the pan. Cook until the egg is set and lightly
+        browned underneath, then cover the pan with a plate and invert the omelette
+        onto it. Slide it back into the pan to cook the other side. Repeat with the
+        remaining mix to make two more omelettes, adding a little oil to the pan each
+        time. Stack the omelettes onto a plate. Make three omelettes in the same way
+        with the red pepper mixture, then stack them on a separate plate.\r\nNow make
+        the filling. Beat the cheese to soften it, then beat in the milk to make a
+        spreadable consistency. Stir in the herbs, salt and pepper. Line a deep, 20-23cm
+        round cake tin with cling film (use a tin the same size as the frying pan).
+        Select the best red pepper omelette and place in the tin, prettiest side down.
+        Spread with a thin layer of cheese filling, then cover with a courgette omelette.
+        Repeat, alternating the layers, until all the omelettes and filling are in
+        the tin, finishing with an omelette. Flip the cling film over the omelette,
+        then chill for up to 24 hrs.\r\nTo serve, invert the omelette cake onto a
+        serving plate and peel off the cling film. Pile rocket on the top and scatter
+        over the cheese, a drizzle of olive oil and a little freshly ground black
+        pepper. Serve cut into wedges.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qwtrtp1511799242.jpg","strTags":"Egg","strYoutube":"https:\/\/www.youtube.com\/watch?v=B7isFo2uP2k","strIngredient1":"Eggs","strIngredient2":"Olive
+        Oil","strIngredient3":"Courgettes","strIngredient4":"Spring Onions","strIngredient5":"Red
+        Pepper","strIngredient6":"Garlic Clove","strIngredient7":"Red Chilli","strIngredient8":"Cream
+        Cheese","strIngredient9":"Milk","strIngredient10":"Chives","strIngredient11":"Basil","strIngredient12":"Rocket","strIngredient13":"Parmesan","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"10","strMeasure2":"1
+        tbs","strMeasure3":"2 finely chopped","strMeasure4":"3 finely chopped","strMeasure5":"4","strMeasure6":"1
+        clove peeled crushed","strMeasure7":"1","strMeasure8":"300g","strMeasure9":"6
+        tblsp","strMeasure10":"4 tbs","strMeasure11":"2 tbs","strMeasure12":"to serve","strMeasure13":"to
+        serve","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/6428\/provenal-omelette-cake","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:52 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Jul 2025 23:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=b0VTElUNzbRoypheKx6vUbwUL%2BnEPjgF28l%2FqT0OidNDxD6A20Z3nO24B7X%2FjpebRmzm8YY2Z7x4sNGJgpIfcpNRicz62R4sEDgHpD95EDu7JTLAkKSR8Emq9XhErVEh9ayx5Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95c3391f291bef8d-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5775&min_rtt=5261&rtt_var=2455&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2832&recv_bytes=786&delivery_rate=487125&cwnd=252&unsent_bytes=0&cid=55d08ebd37d05bfa&ts=71&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52899","strMeal":"Dundee cake","strMealAlternate":null,"strCategory":"Dessert","strArea":"British","strInstructions":"Put
+        the almonds into a small bowl and pour over boiling water to just cover. Leave
+        for 5 mins then drain in a sieve and leave to dry.\r\nPreheat the oven to
+        180C\/160 C fan\/Gas Mark 4. Line a deep loose-based 20cm cake tin with baking
+        parchment.\r\nPut the butter in a large bowl and beat well until soft. Add
+        the sugar and beat until light and fluffy. Stir in the orange zest and apricot
+        jam.\r\nSieve together the flour and baking powder. Add the eggs to the creamed
+        butter and sugar, a little at a time, beating well between each addition.
+        If the mixture starts to curdle, stir in a little flour.\r\nAdd the remaining
+        flour and ground almonds and mix well. Mix in the milk and then add the dried
+        fruit and cherries and mix gently together.\r\nSpoon the mixture into the
+        prepared tin and spread level using the back of a spoon. Arrange the whole
+        almonds close together in neat circles on the top of the cake. Bake in the
+        oven for 45 mins.\r\nLower the oven temperature to 160C\/140 C fan\/Gas Mark
+        3 and cook for a further 60\u201380 minutes. Check the cake after 50 minutes
+        by inserting a wooden or metal skewer into the cake. When it\u2019s done it
+        should have just a few crumbs attached. Check every 10 minutes - it\u2019s
+        important not to overcook this cake so the centre will be a little soft.\r\nWhen
+        cooked, remove the cake briefly from the oven, put the milk and sugar into
+        a small pan and heat gently until the sugar has dissolved. Brush over the
+        top of the cake and return the cake to the oven for 2-3 mins. Remove and allow
+        the cake to cool in the tin. When quite cold remove from the tin and wrap
+        in foil and keep for at least 2 days before cutting.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wxyvqq1511723401.jpg","strTags":"heavy,Nutty,Fruity","strYoutube":"https:\/\/www.youtube.com\/watch?v=4hEXsfpeMQE","strIngredient1":"Almonds","strIngredient2":"Butter","strIngredient3":"Muscovado
+        Sugar","strIngredient4":"Orange","strIngredient5":"Apricot Jam","strIngredient6":"Plain
+        Flour","strIngredient7":"Baking Powder","strIngredient8":"Eggs","strIngredient9":"Ground
+        Almonds","strIngredient10":"Milk","strIngredient11":"Dried Fruit","strIngredient12":"Glace
+        Cherry","strIngredient13":"Milk","strIngredient14":"Caster Sugar","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"100g
+        ","strMeasure2":"180g","strMeasure3":"180g","strMeasure4":"Zest of 1","strMeasure5":"3
+        tbs","strMeasure6":"225g","strMeasure7":"1 tsp ","strMeasure8":"3 Large","strMeasure9":"100g
+        ","strMeasure10":"2 tbs","strMeasure11":"500g","strMeasure12":"100g ","strMeasure13":"1
+        tbs","strMeasure14":"2 tsp","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/2155640\/dundee-cake","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:52 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Jul 2025 23:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=L5jF9RM%2BjQpr67teZ%2BytXPDNtpBa939EvpQfJ%2BhhZ2G4Rq5xkbtqXF1mRhChpizAcX27FlYpKpyMPw6GyubOrE%2F%2BH0paXLxQercc52J0d1ZNsSXIaydiD9I8I7hjurFC3Udj1g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95c3391fbb10d7f7-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5665&min_rtt=5509&rtt_var=1702&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2831&recv_bytes=786&delivery_rate=700466&cwnd=252&unsent_bytes=0&cid=86de76cbe8047517&ts=106&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52803","strMeal":"Beef Wellington","strMealAlternate":null,"strCategory":"Beef","strArea":"British","strInstructions":"Put
+        the mushrooms into a food processor with some seasoning and pulse to a rough
+        paste. Scrape the paste into a pan and cook over a high heat for about 10
+        mins, tossing frequently, to cook out the moisture from the mushrooms. Spread
+        out on a plate to cool.\r\nHeat in a frying pan and add a little olive oil.
+        Season the beef and sear in the hot pan for 30 secs only on each side. (You
+        don''t want to cook it at this stage, just colour it). Remove the beef from
+        the pan and leave to cool, then brush all over with the mustard.\r\nLay a
+        sheet of cling film on a work surface and arrange the Parma ham slices on
+        it, in slightly overlapping rows. With a palette knife, spread the mushroom
+        paste over the ham, then place the seared beef fillet in the middle. Keeping
+        a tight hold of the cling film from the edge, neatly roll the Parma ham and
+        mushrooms around the beef to form a tight barrel shape. Twist the ends of
+        the cling film to secure. Chill for 15-20 mins to allow the beef to set and
+        keep its shape.\r\nRoll out the puff pastry on a floured surface to a large
+        rectangle, the thickness of a \u00a31 coin. Remove the cling film from the
+        beef, then lay in the centre. Brush the surrounding pastry with egg yolk.
+        Fold the ends over, the wrap the pastry around the beef, cutting off any excess.
+        Turn over, so the seam is underneath, and place on a baking sheet. Brush over
+        all the pastry with egg and chill for about 15 mins to let the pastry rest.\r\nHeat
+        the oven to 200C, 400F, gas 6.\r\nLightly score the pastry at 1cm intervals
+        and glaze again with beaten egg yolk. Bake for 20 minutes, then lower the
+        oven setting to 180C, 350F, gas 4 and cook for another 15 mins. Allow to rest
+        for 10-15 mins before slicing and serving with the side dishes of your choice.
+        The beef should still be pink in the centre when you serve it.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vvpprx1487325699.jpg","strTags":"Meat,Stew","strYoutube":"https:\/\/www.youtube.com\/watch?v=FS8u1RBdf6I","strIngredient1":"mushrooms","strIngredient2":"English
+        Mustard","strIngredient3":"Olive Oil","strIngredient4":"Beef Fillet","strIngredient5":"Parma
+        ham","strIngredient6":"Puff Pastry","strIngredient7":"Flour","strIngredient8":"Egg
+        Yolks","strIngredient9":null,"strIngredient10":null,"strIngredient11":null,"strIngredient12":null,"strIngredient13":null,"strIngredient14":null,"strIngredient15":null,"strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"400g","strMeasure2":"1-2tbsp","strMeasure3":"Dash","strMeasure4":"750g
+        piece","strMeasure5":"6-8 slices","strMeasure6":"500g","strMeasure7":"Dusting","strMeasure8":"2
+        Beaten ","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"http:\/\/www.goodtoknow.co.uk\/recipes\/164868\/Gordon-Ramsay-s-beef-Wellington","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:52 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Jul 2025 23:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=frJzGm87VTWckZOHA%2FmJtocVc%2BDWZQarexx6i1EmhwVZhCTm8wtaxkjLcvfYBDGvwAkYglDy8Z9QFa3FzdMqkAj0EgLShppO7tCle6p8A%2Fv8aUKL4z6Uzop6IM8kbd2F7%2FL0LA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95c33920881bbfda-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=6165&min_rtt=4738&rtt_var=4119&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2830&recv_bytes=786&delivery_rate=276224&cwnd=252&unsent_bytes=0&cid=14d6be5a4a096f9d&ts=113&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52846","strMeal":"Chicken & mushroom Hotpot","strMealAlternate":null,"strCategory":"Chicken","strArea":"British","strInstructions":"Heat
+        oven to 200C\/180C fan\/gas 6. Put the butter in a medium-size saucepan and
+        place over a medium heat. Add the onion and leave to cook for 5 mins, stirring
+        occasionally. Add the mushrooms to the saucepan with the onions.\r\n\r\nOnce
+        the onion and mushrooms are almost cooked, stir in the flour \u2013 this will
+        make a thick paste called a roux. If you are using a stock cube, crumble the
+        cube into the roux now and stir well. Put the roux over a low heat and stir
+        continuously for 2 mins \u2013 this will cook the flour and stop the sauce
+        from having a floury taste.\r\n\r\nTake the roux off the heat. Slowly add
+        the fresh stock, if using, or pour in 500ml water if you\u2019ve used a stock
+        cube, stirring all the time. Once all the liquid has been added, season with
+        pepper, a pinch of nutmeg and mustard powder. Put the saucepan back onto a
+        medium heat and slowly bring it to the boil, stirring all the time. Once the
+        sauce has thickened, place on a very low heat. Add the cooked chicken and
+        vegetables to the sauce and stir well. Grease a medium-size ovenproof pie
+        dish with a little butter and pour in the chicken and mushroom filling.\r\n\r\nCarefully
+        lay the potatoes on top of the hot-pot filling, overlapping them slightly,
+        almost like a pie top.\r\n\r\nBrush the potatoes with a little melted butter
+        and cook in the oven for about 35 mins. The hot-pot is ready once the potatoes
+        are cooked and golden brown.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uuuspp1511297945.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=bXKWu4GojNI","strIngredient1":"Butter","strIngredient2":"Onion","strIngredient3":"Mushrooms","strIngredient4":"Plain
+        Flour","strIngredient5":"Chicken Stock Cube","strIngredient6":"Nutmeg","strIngredient7":"Mustard
+        Powder","strIngredient8":"Chicken","strIngredient9":"Sweetcorn","strIngredient10":"Potatoes","strIngredient11":"Butter","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"50g","strMeasure2":"1
+        chopped","strMeasure3":"100g ","strMeasure4":"40g","strMeasure5":"1","strMeasure6":"pinch","strMeasure7":"pinch","strMeasure8":"250g","strMeasure9":"2
+        Handfuls","strMeasure10":"2 large","strMeasure11":"1 knob","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/chicken-mushroom-hot-pot","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:52 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Jul 2025 23:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Di4O%2B3wtMnMOZ2XNCfT%2F3AIbjajYxh8o14ahLULQFyeldp7b83Sw0JrXAYMNW6uY23N0bTh5lD2GkD%2BjzvrS%2B5PtG9sjsjeWbySetLiPTKqH9jNzOaWTudkSvSKDebG4SaLF3Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95c339216e4834d0-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=6257&min_rtt=4606&rtt_var=4232&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2832&recv_bytes=786&delivery_rate=330891&cwnd=252&unsent_bytes=0&cid=f7f32eeeafd9001d&ts=121&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52817","strMeal":"Stovetop Eggplant With Harissa,
+        Chickpeas, and Cumin Yogurt","strMealAlternate":null,"strCategory":"Vegetarian","strArea":"American","strInstructions":"Heat
+        the oil in a 12-inch skillet over high heat until shimmering. Add the eggplants
+        and lower the heat to medium. Season with salt and pepper as you rotate the
+        eggplants, browning them on all sides. Continue to cook, turning regularly,
+        until a fork inserted into the eggplant meets no resistance (you may have
+        to stand them up on their fat end to finish cooking the thickest parts), about
+        20 minutes, lowering the heat and sprinkling water into the pan as necessary
+        if the eggplants threaten to burn or smoke excessively.\r\n\r\n2.\r\nMix the
+        harissa, chickpeas and tomatoes together, then add to the eggplants. Cook
+        until the tomatoes have blistered and broken down, about 5 minutes more. Season
+        with salt and pepper and add water as necessary to thin to a saucy consistency.
+        Meanwhile, combine the yogurt and cumin in a serving bowl. Season with salt
+        and pepper.\r\n\r\n3.\r\nTop the eggplant mixture with the parsley, drizzle
+        with more extra virgin olive oil, and serve with the yogurt on the side.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yqwtvu1487426027.jpg","strTags":"Vegetarian","strYoutube":"https:\/\/www.youtube.com\/watch?v=uYB-1xJp4lg","strIngredient1":"Olive
+        Oil","strIngredient2":"Egg Plants","strIngredient3":"Harissa Spice","strIngredient4":"Chickpeas","strIngredient5":"Cherry
+        Tomatoes","strIngredient6":"Greek yogurt","strIngredient7":"Ground cumin","strIngredient8":"Parsley","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"4
+        tablespoons","strMeasure2":"6 small","strMeasure3":"\u00bd tablespoon","strMeasure4":"1
+        can","strMeasure5":"2 cups halved","strMeasure6":"1 1\/2 cups","strMeasure7":"1
+        tablespoon","strMeasure8":"\u00bd cup ","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"http:\/\/www.seriouseats.com\/2014\/09\/one-pot-wonders-stovetop-eggplant-harissa-chickpeas-cumin.html","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:52 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Jul 2025 23:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=lZH4IKY%2BuNaY4HyeWoZUu5w1r9UFiioGULSD5JVI9NV%2BHMmz6QCPHwoWajdOcktLmJfuyHQOsn8bjnsib5oQ8FsKw4OW7EhsW2s%2BpvKZSOszN5gAyIBLc5p%2B%2Fru1N3SW9Dm39w%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95c339224a732f9d-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5392&min_rtt=4979&rtt_var=2150&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2831&recv_bytes=786&delivery_rate=582605&cwnd=252&unsent_bytes=0&cid=d37cc0b3f3714ab6&ts=105&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"53038","strMeal":"Mustard champ","strMealAlternate":null,"strCategory":"Side","strArea":"Irish","strInstructions":"STEP
+        1\r\nBoil the potatoes for 15 mins or until tender. Drain, then mash.\r\n\r\nSTEP
+        2\r\nHeat the milk and half the butter in the corner of the pan, then beat
+        into the mash, along with the wholegrain mustard.\r\n\r\nSTEP 3\r\nGently
+        fry the spring onions in the remaining butter for 2 mins until just soft but
+        still a perky green. Fold into the mash and serve. Great with gammon or to
+        top a fish pie.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/o7p9581608589317.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=_iKllHSC978","strIngredient1":"Potatoes","strIngredient2":"Milk","strIngredient3":"Butter","strIngredient4":"Mustard","strIngredient5":"Spring
+        Onions","strIngredient6":"Spring Onions","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1kg","strMeasure2":"200ml","strMeasure3":"50g","strMeasure4":"2
+        tbs","strMeasure5":"Bunch","strMeasure6":"Bunch","strMeasure7":" ","strMeasure8":"
+        ","strMeasure9":" ","strMeasure10":" ","strMeasure11":" ","strMeasure12":"
+        ","strMeasure13":" ","strMeasure14":" ","strMeasure15":" ","strMeasure16":"
+        ","strMeasure17":" ","strMeasure18":" ","strMeasure19":" ","strMeasure20":"
+        ","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/mustard-champ","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:52 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Jul 2025 23:04:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=aUB%2FT5VG7rkmn4X1PSHyJ1DvbXqsyWFSfH1L2pMIu83RTwj7ifTNdvNRFok8qQoNHJPk1N6BAw9PEWVXO%2BI2uwV8A4qW8np1%2BHknNI9gz42Pe%2FCvH%2BBo81pBKpJSXKOxtF0Pvg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95c33923080cbfd2-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=5717&min_rtt=5097&rtt_var=2589&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2832&recv_bytes=786&delivery_rate=474361&cwnd=252&unsent_bytes=0&cid=c27cf397fedf0294&ts=82&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52940","strMeal":"Brown Stew Chicken","strMealAlternate":null,"strCategory":"Chicken","strArea":"Jamaican","strInstructions":"Squeeze
+        lime over chicken and rub well. Drain off excess lime juice.\r\nCombine tomato,
+        scallion, onion, garlic, pepper, thyme, pimento and soy sauce in a large bowl
+        with the chicken pieces. Cover and marinate at least one hour.\r\nHeat oil
+        in a dutch pot or large saucepan. Shake off the seasonings as you remove each
+        piece of chicken from the marinade. Reserve the marinade for sauce.\r\nLightly
+        brown the chicken a few pieces at a time in very hot oil. Place browned chicken
+        pieces on a plate to rest while you brown the remaining pieces.\r\nDrain off
+        excess oil and return the chicken to the pan. Pour the marinade over the chicken
+        and add the carrots. Stir and cook over medium heat for 10 minutes.\r\nMix
+        flour and coconut milk and add to stew, stirring constantly. Turn heat down
+        to minimum and cook another 20 minutes or until tender.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sypxpx1515365095.jpg","strTags":"Stew","strYoutube":"https:\/\/www.youtube.com\/watch?v=_gFB1fkNhXs","strIngredient1":"Chicken","strIngredient2":"Tomato","strIngredient3":"Onions","strIngredient4":"Garlic
+        Clove","strIngredient5":"Red Pepper","strIngredient6":"Carrots","strIngredient7":"Lime","strIngredient8":"Thyme","strIngredient9":"Allspice","strIngredient10":"Soy
+        Sauce","strIngredient11":"Cornstarch","strIngredient12":"Coconut Milk","strIngredient13":"Vegetable
+        Oil","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
+        whole","strMeasure2":"1 chopped","strMeasure3":"2 chopped","strMeasure4":"2
+        chopped","strMeasure5":"1 chopped","strMeasure6":"1 chopped","strMeasure7":"1","strMeasure8":"2
+        tsp","strMeasure9":"1 tsp ","strMeasure10":"2 tbs","strMeasure11":"2 tsp","strMeasure12":"2
+        cups ","strMeasure13":"1 tbs","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"http:\/\/www.geniuskitchen.com\/recipe\/authentic-jamaican-brown-stew-chicken-347996","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:52 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v1/1/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.13.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Jul 2025 23:04:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/7.4.33
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=0
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=RASfHR%2BQYAbuzaRdjbhMmGAUEL8%2BFncOwFx7SfV8y%2BaVGvlckXEv4MF50MPcyGuZxBWsf8JMOT4KXTle%2FxLXvAIJ0xPKKaezXk7N8DB3zChN%2BFCv6FO%2FKDLbRwlt4VJ83hjhXg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 95c33923a837689e-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=4974&min_rtt=4530&rtt_var=1576&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2831&recv_bytes=786&delivery_rate=795454&cwnd=252&unsent_bytes=0&cid=d6d5578aaa9fd2e6&ts=96&x=0"
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52930","strMeal":"Pate Chinois","strMealAlternate":null,"strCategory":"Beef","strArea":"Canadian","strInstructions":"In
+        a large pot of salted water, cook the potatoes until they are very tender.
+        Drain.\r\nWith a masher, coarsely crush the potatoes with at least 30 ml (2
+        tablespoons) of butter. With an electric mixer, pur\u00e9e with the milk.
+        Season with salt and pepper. Set aside.\r\nWith the rack in the middle position,
+        preheat the oven to 190 \u00b0C (375 \u00b0F).\r\nIn a large skillet, brown
+        the onion in the remaining butter. Add the meat and cook until golden brown.
+        Season with salt and pepper. Remove from the heat.\r\nLightly press the meat
+        at the bottom of a 20-cm (8-inch) square baking dish. Cover with the corn
+        and the mashed potatoes. Sprinkle with paprika and parsley.\r\nBake for about
+        30 minutes. Finish cooking under the broiler. Let cool for 10 minutes.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yyrrxr1511816289.jpg","strTags":"MainMeal,Alcoholic","strYoutube":"https:\/\/www.youtube.com\/watch?v=QRFqnLkEv3I","strIngredient1":"Potatoes","strIngredient2":"Butter","strIngredient3":"Milk","strIngredient4":"Minced
+        Beef","strIngredient5":"Onion","strIngredient6":"Creamed Corn","strIngredient7":"Paprika","strIngredient8":"Parsley","strIngredient9":"Salt","strIngredient10":"Pepper","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"4
+        cups ","strMeasure2":"60ml","strMeasure3":"\u00bd cup ","strMeasure4":"450g","strMeasure5":"1
+        finely chopped ","strMeasure6":"500ml","strMeasure7":"to taste","strMeasure8":"to
+        taste","strMeasure9":"Dash","strMeasure10":"Dash","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.ricardocuisine.com\/en\/recipes\/5541-pate-chinois-shepherd--s-pie-","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 08 Jul 2025 23:04:53 GMT
 recorded_with: VCR 6.3.1
