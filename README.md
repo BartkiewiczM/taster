@@ -9,11 +9,10 @@ It powers the Taster React client and is deployed on **[Railway](https://railway
 
 1. [Features](#features)
 2. [Tech Stack](#tech-stack)
-3. [Architecture](#architecture)
-4. [Data Model](#data-model)
-6. [Background Jobs](#background-jobs)
-7. [API Reference](#api-reference)
-8. [Deployment on Railway](#deployment-on-railway)
+3. [Data Model](#data-model)
+4. [Background Jobs](#background-jobs)
+5. [API Reference](#api-reference)
+6. [Deployment on Railway](#deployment-on-railway)
 
 ---
 
@@ -37,28 +36,6 @@ It powers the Taster React client and is deployed on **[Railway](https://railway
 | Auth            | Devise, `warden-jwt_auth`                                               |
 | External API    | TheMealDB, OpenAI                                                       |
 | Deployment      | Railway (services: `web`, `sidekiq`, `postgres`, `redis`)               |
-
-\## Architecture
-
-```text
-                ┌────────────┐   1. Signup/Login        ┌────────────┐
-       React  → │  Rails API │ ───────────────────────→ │ PostgreSQL │
-                │  (web svc) │                          └────────────┘
-                └────────────┘
-                    │  ▲  ▲
-   2. /meals/random │  │  │ 3. write Job + push to Redis
-                    ▼  │  │
-                ┌────────────┐                          ┌────────────┐
-                │  Sidekiq   │ ←──── fetch meal ─────── │ TheMealDB  │
-                │  workers   │                          └────────────┘
-                └────────────┘
-                    │
-        4. OpenAI taste profile
-                    ▼
-                ┌────────────┐
-                │  OpenAI    │
-                └────────────┘
-```
 
 \## Data Model
 
