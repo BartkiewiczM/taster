@@ -4,7 +4,7 @@ class OpenaiClient
   require "openai"
 
   def initialize
-    @client = OpenAI::Client.new(api_key: Rails.application.credentials.openai[:api_key])
+    @client = OpenAI::Client.new(api_key: ENV.fetch("OPENAI_API_KEY", nil))
   end
 
   def create_user_taste_profile(preferences)
