@@ -3,6 +3,13 @@ info:
   title: Taster API
   version: "1.0.0"
 
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
 paths:
   /api/v1/signup:
     post:
@@ -56,6 +63,8 @@ paths:
   /api/v1/logout:
     delete:
       summary: User logout
+      security:
+        - bearerAuth: []
       responses:
         '204':
           description: Logged out
@@ -63,6 +72,8 @@ paths:
   /api/v1/meals/random:
     get:
       summary: Get random meal
+      security:
+        - bearerAuth: []
       parameters:
         - in: query
           name: category
@@ -75,9 +86,12 @@ paths:
           description: Random meal
         '404':
           description: Not found
-    /api/v1/meals/{id}:
+
+  /api/v1/meals/{id}:
     get:
       summary: Get saved meal by ID
+      security:
+        - bearerAuth: []
       parameters:
         - in: path
           name: id
@@ -115,6 +129,8 @@ paths:
   /api/v1/meal_histories:
     get:
       summary: Get user's meal histories
+      security:
+        - bearerAuth: []
       parameters:
         - in: query
           name: favourite
@@ -155,6 +171,8 @@ paths:
   /api/v1/meal_histories/{id}:
     patch:
       summary: Update meal history (favourite or rating)
+      security:
+        - bearerAuth: []
       parameters:
         - in: path
           name: id
@@ -205,3 +223,21 @@ paths:
           description: Meal history not found
         '422':
           description: Validation failed
+
+  /api/v1/users/preferences:
+    get:
+      summary: Get user's taste preferences
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Returns user's current taste profile/preferences
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  preferences:
+                    type: string
+        '401':
+          description: Unauthorized
