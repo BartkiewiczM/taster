@@ -25,6 +25,10 @@ Rails.application.routes.draw do
       resources :meals, only: [:show]
 
       resources :meal_histories, only: [:index, :update]
+
+      resources :users, only: [] do
+        get :preferences, on: :collection
+      end
     end
   end
 end
